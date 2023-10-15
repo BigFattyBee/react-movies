@@ -1,0 +1,5 @@
+###
+GET https://www.omdbapi.com/?apikey=7fb73ed3&i=tt3896198
+
+###
+GET https://www.omdbapi.com/?apikey=7fb73ed3&s=monster

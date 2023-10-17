@@ -3,14 +3,16 @@ import Header from "./Layout/Header"
 import Footer from "./Layout/Footer";
 import Main from "./Layout/Main";
 
-function App() {
-  return (
-    <div>
-      <Header />
-      <Main />
-      <Footer />
-    </div>
-  );
+export default class App extends React.Component {
+
+  render() {
+    return (
+      <>
+        <Header />
+        <Main search="hobbit" />
+        <Footer />
+      </>
+    )
+  }
 }
 
-export default App

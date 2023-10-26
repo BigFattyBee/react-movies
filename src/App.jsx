@@ -9,7 +9,7 @@ export default class App extends React.Component {
     return (
       <>
         <Header />
-        <Main search="hobbit" />
+        <Main search="star war" />
         <Footer />
       </>
     )

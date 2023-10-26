@@ -8,7 +8,7 @@ export default class Main extends React.Component {
     }
 
     componentDidMount() {
-        this.searchMovies('hobbit')
+        this.searchMovies(this.props.search)
     }
 
     searchMovies = (search) => {
